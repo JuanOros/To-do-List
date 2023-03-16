@@ -5,17 +5,86 @@
 
 body {
     background-color: #429ffa;
+    display: flex;
 }
 
 .container {
     background: white;
     margin: 25px 3%;
-    height: 500px;
     border-radius: 25px;
+    width: 60%;
 }
 
-.container h1 {
+.container header h1{
     padding: 30px 30px;
     font-size: 40px;
     font-family:Georgia, 'Times New Roman', Times, serif;
 }
+
+.container header p{
+    padding-left: 30px;
+    padding-bottom: 30px;
+    font-style: italic;
+    color: gray;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.makeTask {
+    padding-left: 30px;
+    display: flex;
+    height: 30px;
+}
+
+.makeTask button {
+    margin-left: 40px;
+    border-radius: 12px;
+    width: 100px;
+    color: white;
+    background-color:  #16437E;
+}
+
+.makeTask input {
+    padding-left: 5px;
+    width: 300px;
+}
+
+.buttons {
+    display: flex;
+    padding: 30px 30px;
+}
+
+.button {
+    border-radius: 12px;
+    border: 0px solid black;
+    margin: 0 5px;
+    height: 25px;
+    font-size: 13px;
+    font-weight: bold;
+    color: white;
+}
+
+#deleteButton {
+    background-color: rgb(192, 62, 11);
+    width: 30px;
+}
+
+#upperButton, #downButton {
+    width: 45px;
+    background-color: rgb(255, 174, 0);
+}
+
+#deleteSelectedButton{
+    background-color: rgb(126, 109, 226);
+    padding-inline: 7px;
+}
+
+#deletaAllButton{
+    background-color: rgb(192, 62, 11);
+    padding-inline: 7px;
+}
+
+#saveButton{
+    background-color: rgb(76, 167, 23);
+    padding-inline: 7px;
+}
+

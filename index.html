@@ -8,8 +8,27 @@
     <title>Tasks</title>
 </head>
 <body>
-    <section class="container">
-        <h1>My tasks List</h1>
-    </section>
+    <main class="container">
+        <header>
+            <h1>My tasks List</h1>
+            <p>Dubble click to mark task as completed</p>
+        </header>
+        <section class="makeTask">
+            <input type="text">
+            <button>Add Task</button>
+        </section>
+        <section class="taskList"></section>
+        <footer class="buttons">
+            <button class="button" id="deleteButton">X</button>
+            <button class="button"  id="upperButton">up</button>
+            <button class="button" id="downButton">down</button>
+            <button class="button" id="deleteSelectedButton">Clear Selecteds</button>
+            <button class="button" id="deletaAllButton">Clear All tasks</button>
+            <button class="button" id="saveButton">Save List</button>
+        </footer>
+    </main>
+    <aside>
+        <section class="concluedTaskList"></section>
+    </aside>
 </body>
 </html>
