@@ -92,3 +92,20 @@ button:hover {
     padding-inline: 7px;
 }
 
+.taskList {
+    padding: 15px 45px;
+    font-style: italic;
+    color: rgb(0, 0, 0);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.selected {
+    background-color: rgb(240, 226, 226);
+}
+.ordedList {
+    margin: 5px 0;
+}
+
+.concluedTask {
+    text-decoration: line-through;
+}
