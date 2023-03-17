@@ -14,10 +14,14 @@
             <p>Dubble click to mark task as completed</p>
         </header>
         <section class="makeTask">
-            <input type="text">
-            <button>Add Task</button>
+            <input type="text" id="inputTask" required>
+            <button id="addTask">Add Task</button>
         </section>
-        <section class="taskList"></section>
+        <section class="ordedList">
+            <ol class="taskList">
+
+            </ol>
+        </section>
         <footer class="buttons">
             <button class="button" id="deleteButton">X</button>
             <button class="button"  id="upperButton">up</button>
@@ -30,5 +34,6 @@
     <aside>
         <section class="concluedTaskList"></section>
     </aside>
+    <script src="script.js"></script>
 </body>
 </html>
